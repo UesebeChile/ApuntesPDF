@@ -1,0 +1,388 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FACF783620F516B500474170 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACF783520F516B500474170 /* AppDelegate.swift */; };
+		FACF783820F516B500474170 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACF783720F516B500474170 /* ViewController.swift */; };
+		FACF783B20F516B500474170 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FACF783920F516B500474170 /* Main.storyboard */; };
+		FACF783D20F516B900474170 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FACF783C20F516B900474170 /* Assets.xcassets */; };
+		FACF784020F516B900474170 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FACF783E20F516B900474170 /* LaunchScreen.storyboard */; };
+		FACF786320F5184400474170 /* matematica_discreta.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FACF785B20F5184400474170 /* matematica_discreta.pdf */; };
+		FACF786420F5184400474170 /* vectores.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FACF785C20F5184400474170 /* vectores.pdf */; };
+		FACF786520F5184400474170 /* matrices.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FACF785D20F5184400474170 /* matrices.pdf */; };
+		FACF786620F5184400474170 /* diagonalizacion.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FACF785E20F5184400474170 /* diagonalizacion.pdf */; };
+		FACF786720F5184400474170 /* programacion_lineal.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FACF785F20F5184400474170 /* programacion_lineal.pdf */; };
+		FACF786820F5184400474170 /* aplicaciones_lineales.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FACF786020F5184400474170 /* aplicaciones_lineales.pdf */; };
+		FACF786920F5184400474170 /* teoria_de_grafos.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FACF786120F5184400474170 /* teoria_de_grafos.pdf */; };
+		FACF786A20F5184400474170 /* espacios_vectoriales.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FACF786220F5184400474170 /* espacios_vectoriales.pdf */; };
+		FACF786C20F518FC00474170 /* FilesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACF786B20F518FC00474170 /* FilesTableViewController.swift */; };
+		FACF786E20F5823600474170 /* Watermark.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACF786D20F5823600474170 /* Watermark.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FACF783220F516B500474170 /* Apuntes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Apuntes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FACF783520F516B500474170 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FACF783720F516B500474170 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FACF783A20F516B500474170 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FACF783C20F516B900474170 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FACF783F20F516B900474170 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FACF784120F516B900474170 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FACF785B20F5184400474170 /* matematica_discreta.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = matematica_discreta.pdf; path = "Apuntes/pdf-apuntes/matematica_discreta.pdf"; sourceTree = SOURCE_ROOT; };
+		FACF785C20F5184400474170 /* vectores.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = vectores.pdf; path = "Apuntes/pdf-apuntes/vectores.pdf"; sourceTree = SOURCE_ROOT; };
+		FACF785D20F5184400474170 /* matrices.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = matrices.pdf; path = "Apuntes/pdf-apuntes/matrices.pdf"; sourceTree = SOURCE_ROOT; };
+		FACF785E20F5184400474170 /* diagonalizacion.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = diagonalizacion.pdf; path = "Apuntes/pdf-apuntes/diagonalizacion.pdf"; sourceTree = SOURCE_ROOT; };
+		FACF785F20F5184400474170 /* programacion_lineal.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = programacion_lineal.pdf; path = "Apuntes/pdf-apuntes/programacion_lineal.pdf"; sourceTree = SOURCE_ROOT; };
+		FACF786020F5184400474170 /* aplicaciones_lineales.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = aplicaciones_lineales.pdf; path = "Apuntes/pdf-apuntes/aplicaciones_lineales.pdf"; sourceTree = SOURCE_ROOT; };
+		FACF786120F5184400474170 /* teoria_de_grafos.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = teoria_de_grafos.pdf; path = "Apuntes/pdf-apuntes/teoria_de_grafos.pdf"; sourceTree = SOURCE_ROOT; };
+		FACF786220F5184400474170 /* espacios_vectoriales.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = espacios_vectoriales.pdf; path = "Apuntes/pdf-apuntes/espacios_vectoriales.pdf"; sourceTree = SOURCE_ROOT; };
+		FACF786B20F518FC00474170 /* FilesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilesTableViewController.swift; sourceTree = "<group>"; };
+		FACF786D20F5823600474170 /* Watermark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Watermark.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FACF782F20F516B500474170 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FACF782920F516B500474170 = {
+			isa = PBXGroup;
+			children = (
+				FACF783420F516B500474170 /* Apuntes */,
+				FACF783320F516B500474170 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FACF783320F516B500474170 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FACF783220F516B500474170 /* Apuntes.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FACF783420F516B500474170 /* Apuntes */ = {
+			isa = PBXGroup;
+			children = (
+				FACF785A20F517DD00474170 /* pdf-apuntes */,
+				FACF783520F516B500474170 /* AppDelegate.swift */,
+				FACF783720F516B500474170 /* ViewController.swift */,
+				FACF786D20F5823600474170 /* Watermark.swift */,
+				FACF786B20F518FC00474170 /* FilesTableViewController.swift */,
+				FACF783920F516B500474170 /* Main.storyboard */,
+				FACF783C20F516B900474170 /* Assets.xcassets */,
+				FACF783E20F516B900474170 /* LaunchScreen.storyboard */,
+				FACF784120F516B900474170 /* Info.plist */,
+			);
+			path = Apuntes;
+			sourceTree = "<group>";
+		};
+		FACF785A20F517DD00474170 /* pdf-apuntes */ = {
+			isa = PBXGroup;
+			children = (
+				FACF786020F5184400474170 /* aplicaciones_lineales.pdf */,
+				FACF785E20F5184400474170 /* diagonalizacion.pdf */,
+				FACF786220F5184400474170 /* espacios_vectoriales.pdf */,
+				FACF785B20F5184400474170 /* matematica_discreta.pdf */,
+				FACF785D20F5184400474170 /* matrices.pdf */,
+				FACF785F20F5184400474170 /* programacion_lineal.pdf */,
+				FACF786120F5184400474170 /* teoria_de_grafos.pdf */,
+				FACF785C20F5184400474170 /* vectores.pdf */,
+			);
+			name = "pdf-apuntes";
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FACF783120F516B500474170 /* Apuntes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FACF784420F516B900474170 /* Build configuration list for PBXNativeTarget "Apuntes" */;
+			buildPhases = (
+				FACF782E20F516B500474170 /* Sources */,
+				FACF782F20F516B500474170 /* Frameworks */,
+				FACF783020F516B500474170 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Apuntes;
+			productName = Apuntes;
+			productReference = FACF783220F516B500474170 /* Apuntes.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FACF782A20F516B500474170 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Uesebe;
+				TargetAttributes = {
+					FACF783120F516B500474170 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = FACF782D20F516B500474170 /* Build configuration list for PBXProject "Apuntes" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FACF782920F516B500474170;
+			productRefGroup = FACF783320F516B500474170 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FACF783120F516B500474170 /* Apuntes */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FACF783020F516B500474170 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FACF786420F5184400474170 /* vectores.pdf in Resources */,
+				FACF784020F516B900474170 /* LaunchScreen.storyboard in Resources */,
+				FACF786620F5184400474170 /* diagonalizacion.pdf in Resources */,
+				FACF783D20F516B900474170 /* Assets.xcassets in Resources */,
+				FACF783B20F516B500474170 /* Main.storyboard in Resources */,
+				FACF786A20F5184400474170 /* espacios_vectoriales.pdf in Resources */,
+				FACF786820F5184400474170 /* aplicaciones_lineales.pdf in Resources */,
+				FACF786720F5184400474170 /* programacion_lineal.pdf in Resources */,
+				FACF786520F5184400474170 /* matrices.pdf in Resources */,
+				FACF786320F5184400474170 /* matematica_discreta.pdf in Resources */,
+				FACF786920F5184400474170 /* teoria_de_grafos.pdf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FACF782E20F516B500474170 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FACF786E20F5823600474170 /* Watermark.swift in Sources */,
+				FACF786C20F518FC00474170 /* FilesTableViewController.swift in Sources */,
+				FACF783820F516B500474170 /* ViewController.swift in Sources */,
+				FACF783620F516B500474170 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FACF783920F516B500474170 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FACF783A20F516B500474170 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FACF783E20F516B900474170 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FACF783F20F516B900474170 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FACF784220F516B900474170 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FACF784320F516B900474170 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FACF784520F516B900474170 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UE2J9BQT7V;
+				INFOPLIST_FILE = Apuntes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cl.uesebe.Apuntes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FACF784620F516B900474170 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UE2J9BQT7V;
+				INFOPLIST_FILE = Apuntes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cl.uesebe.Apuntes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FACF782D20F516B500474170 /* Build configuration list for PBXProject "Apuntes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FACF784220F516B900474170 /* Debug */,
+				FACF784320F516B900474170 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FACF784420F516B900474170 /* Build configuration list for PBXNativeTarget "Apuntes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FACF784520F516B900474170 /* Debug */,
+				FACF784620F516B900474170 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FACF782A20F516B500474170 /* Project object */;
+}
